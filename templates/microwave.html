@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Microwave</title>
+    <script src="static/microwave.js"></script>
+</head>
+
+<body onload="initializeWebSocket()">
+    <h1>Microwave</h1>
+    <p>Status: <span id="status">OFF</span></p>
+    <p>Power: <span id="power">0</span>%</p>
+    <p>Counter: <span id="counter">0</span>s</p>
+    <button onclick="increasePower()">Power +10%</button>
+    <button onclick="decreasePower()">Power -10%</button>
+    <button onclick="increaseCounter()">Counter +10s</button>
+    <button onclick="decreaseCounter()">Counter -10s</button>
+    <button onclick="cancelOperation()">Cancel</button>
+</body>
+
+</html>
+

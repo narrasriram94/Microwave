@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+redis
+pyjwt
+jinja2
+python-dotenv
+pytest
+asyncio
