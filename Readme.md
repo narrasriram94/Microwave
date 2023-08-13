@@ -6,7 +6,7 @@ A simple web application simulating a microwave interface using FastAPI and Redi
 
 1. **Clone the Repository**:
     ```bash
-    git clone [your-repo-link]
+    git clone https://github.com/narrasriram94/Microwave
     cd microwave_app
     ```
 
