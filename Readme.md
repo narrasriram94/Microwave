@@ -4,6 +4,10 @@ A simple web application simulating a microwave interface using FastAPI and Redi
 
 ## Setup
 
+**Pre-requisites**:
+`Python 3.11`, 
+`Redis`(Suggested: Run redis docker image)
+
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/narrasriram94/Microwave
