@@ -26,7 +26,7 @@ A simple web application simulating a microwave interface using FastAPI and Redi
 
 5. **Run the Application**:
     ```bash
-    uvicorn main:app --reload
+    uvicorn api.main:app --reload
     ```
 
 6. **Access the Application**:
